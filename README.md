@@ -25,6 +25,7 @@ In the root folder, open your command line terminal.
 Follow the following command 
 
 **Frontend**
+
 To get this project up and running start by having Node.Js installed on your computer and terminal opened at the projects root directory. Then go to the frontend folder with 
 
 ```
@@ -40,15 +41,18 @@ npm install
 Now you can run the project's frontend with the following command
 
 ```
-npm start`
+npm start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) 
 
 **Backend**
+
 Go back to the project root directory. Then go to the backed folder with the following command.
 
-`cd backend`
+```
+cd backend
+```
 
 Make sure you have Python installed on your computer. It's advised you create a virtual environment to store your projects dependencies separately. You can install virtualenv with
 
@@ -79,6 +83,7 @@ Now you can run the backend with this command
 ```
 python manage.py runserver
 ```
+Open [http://localhost:8000](http://localhost:8000) 
 
 After the backend and frontend have been set up. You can open the project at [http://localhost:3000](http://localhost:3000) and play the game as normal.
 
