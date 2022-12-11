@@ -4,7 +4,7 @@ This is a project example of the game "Rock Paper Scissors" built with React.js 
 
 The game includes the following options:
  - Live-game play mode using websockets
- - Play mode against the computer
+ - Play against the computer
 
 ## Live Demo
 
@@ -19,33 +19,28 @@ Demo - Click to Play - https://emoji-rock-paper-scissors.herokuapp.com
 
 ## How to run this project
 
+Clone this repo and install it on your local machince
 
-To get this project up and running start by having Python installed on your computer. It's advised you create a virtual environment to store your projects dependencies separately. You can install virtualenv with
+In the root folder, open your command line terminal. 
+Follow the following command 
 
-```
-pip install virtualenv
-```
+1. Write 'cd frontend'
 
-Clone or download this repository and open it in your editor of choice. In a terminal (mac/linux) or windows terminal, run the following command in the base directory of this project
+2. npm install
 
-```
-virtualenv venv
-```
+3. npm start
 
-That will create a new folder `venv` in your project directory. Next activate it with this command on mac/linux:
+Open [http://localhost:3000]
 
-```
-source env/bin/active
-```
+### `npm start`
 
-Then install the project dependencies with
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-```
-pip install -r requirements.txt
-```
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Now you can run the project with this command
+### `npm test`
 
-```
-python manage.py runserver
-```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
