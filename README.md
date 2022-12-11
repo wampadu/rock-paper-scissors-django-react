@@ -24,13 +24,58 @@ Clone this repo and install it on your local machince
 In the root folder, open your command line terminal. 
 Follow the following command 
 
-1. Write 'cd frontend'
+**Frontend**
+To get this project up and running start by having Node.Js installed on your computer and terminal opened at the projects root directory. Then go to the frontend folder with 
 
-2. npm install
+`cd frontend`
 
-3. npm start
+Install the project node modules and frontend project dependencies with
 
-Open [http://localhost:3000]
+2. `npm install`
+
+Now you can run the project's frontend with the following command
+
+3. `npm start`
+
+Open [http://localhost:3000](http://localhost:3000) 
+
+**Backend**
+Go back to the project root directory.
+
+`cd backend`
+
+Make sure you have Python installed on your computer. It's advised you create a virtual environment to store your projects dependencies separately. You can install virtualenv with
+
+```
+pip install virtualenv
+```
+
+Run the following command in the base directory of this project
+
+```
+virtualenv venv
+```
+
+That will create a new folder `venv` in your project directory. Next activate it with this command on mac/linux:
+
+```
+source env/bin/active
+```
+
+Then install the project dependencies with
+
+```
+pip install -r requirements.txt
+```
+
+Now you can run the backend with this command
+
+```
+python manage.py runserver
+```
+
+After the backend and frontend have been set up. You can open the project at [http://localhost:3000](http://localhost:3000) and play the game as normal.
+
 
 ### `npm start`
 
