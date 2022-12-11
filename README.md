@@ -3,11 +3,11 @@
 This is a project example of the game "Rock Paper Scissors" built with React.js & Django.
 
 The game includes a live-play mode using websocket 
-and the option to play against the computer.
+and you can also play against the computer.
 
 ## Live Demo
 
-https://emoji-rock-paper-scissors.herokuapp.com
+Demo - Click to Play - https://emoji-rock-paper-scissors.herokuapp.com
 
 <img width="920" alt="image" src="https://user-images.githubusercontent.com/50532644/206914648-6fb23abb-b64a-42fd-975b-41d0b845e770.png">
 
@@ -16,27 +16,35 @@ https://emoji-rock-paper-scissors.herokuapp.com
 <img width="953" alt="image" src="https://user-images.githubusercontent.com/50532644/206915147-5dd1044a-6ee2-4a63-ba5b-81df203fc989.png">
 
 
-## How to Install this repo
+## How to run this project
 
-The architecture is feature-based and follows the recommendation from the article I wrote on Medium: [How to better organize your React applications?](https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1)
 
-It can easily be extended to different versions of the game, such as "Rock Paper Scissors Lizard Spock"
+To get this project up and running start by having Python installed on your computer. It's advised you create a virtual environment to store your projects dependencies separately. You can install virtualenv with
 
-The project has unit tests which only covers the main game features.
+```
+pip install virtualenv
+```
 
-You can fork and clone the project and run `npm install` to install the external dependencies.
-This project has been tested with node v7.7.1 and npm 4.1.2.
+Clone or download this repository and open it in your editor of choice. In a terminal (mac/linux) or windows terminal, run the following command in the base directory of this project
 
-## Helpful commands
+```
+virtualenv venv
+```
 
-You have the following CLI commands available:
+That will create a new folder `venv` in your project directory. Next activate it with this command on mac/linux:
 
-- `npm run start` Runs the project with `webpack-dev-server` and serves it on http://localhost:3333
+```
+source env/bin/active
+```
 
-- `npm run test`: Runs unit tests via Karma, in Chrome by default
+Then install the project dependencies with
 
-- `npm run lint`: Runs ESLint against your source and config files
+```
+pip install -r requirements.txt
+```
 
-- `npm run build` Runs Webpack build
+Now you can run the project with this command
 
-- `npm run serve` Serves the `build/` folder contents
+```
+python manage.py runserver
+```
