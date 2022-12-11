@@ -27,20 +27,26 @@ Follow the following command
 **Frontend**
 To get this project up and running start by having Node.Js installed on your computer and terminal opened at the projects root directory. Then go to the frontend folder with 
 
-`cd frontend`
+```
+cd frontend
+```
 
 Install the project node modules and frontend project dependencies with
 
-2. `npm install`
+```
+npm install
+```
 
 Now you can run the project's frontend with the following command
 
-3. `npm start`
+```
+npm start`
+```
 
 Open [http://localhost:3000](http://localhost:3000) 
 
 **Backend**
-Go back to the project root directory.
+Go back to the project root directory. Then go to the backed folder with the following command.
 
 `cd backend`
 
