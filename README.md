@@ -2,8 +2,9 @@
 
 This is a project example of the game "Rock Paper Scissors" built with React.js & Django.
 
-The game includes a live-play mode using websocket 
-and you can also play against the computer.
+The game includes the following options:
+ - Live-game play mode using websockets
+ - Play mode against the computer
 
 ## Live Demo
 
